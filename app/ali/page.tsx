@@ -1,10 +1,13 @@
 
 
+
+
+
 "use client"
 import React from 'react'
 import { QRCodeCanvas } from "qrcode.react";
 const page = () => {
-   const link = "https://chughtai-ruddy.vercel.app/Muneeb.pdf"; 
+   const link = "https://chughtai-ruddy.vercel.app/aliahmad.pdf"; 
   return (
    <div className="h-screen w-screen bg-white flex justify-center items-center">
   <a href={link} target="_blank" rel="noopener noreferrer">
